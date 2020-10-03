@@ -1,7 +1,3 @@
-.img-header {
-  max-width: 100%;
-}
-
 .block1-text-absolute {
   position: absolute;
   right: 5%;
@@ -11,4 +7,22 @@
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
-  text-align: center; }
+  text-align: center;
+}
+
+.bg-img-header {
+  background: url(../img/bg-header.png) 0 0 no-repeat;
+  max-width: 100%;
+  height: auto;
+}
+
+.bg-img-footer {
+  background: url(../img/bg-footer.png) 0 0 no-repeat;
+  max-width: 100%;
+  height: auto;
+}
+
+.vmiddle {
+  display: flex;
+  align-items: center;
+}
