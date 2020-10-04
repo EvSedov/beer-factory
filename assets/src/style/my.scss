@@ -11,15 +11,13 @@
 }
 
 .bg-img-header {
-  background: url(../img/bg-header.png) 0 0 no-repeat;
-  max-width: 100%;
-  height: auto;
+  background: url(../img/bg-header.png) center repeat;
+  background-size: auto 100%;
 }
 
 .bg-img-footer {
-  background: url(../img/bg-footer.png) 0 0 no-repeat;
-  max-width: 100%;
-  height: auto;
+  background: url(../img/bg-footer.png) center repeat;
+  background-size: auto 100%;
 }
 
 .vmiddle {
