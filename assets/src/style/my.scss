@@ -18,9 +18,30 @@
 .bg-img-footer {
   background: url(../img/bg-footer.png) center repeat;
   background-size: auto 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
-.vmiddle {
+.footer-circle {
+  height: 250px;
+  width: 250px;
+  border: 3px solid #000;
+  border-radius: 50%;
+  background-color: #fff;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.footer-circle-text {
+  font-weight: bold;
+  font-size: medium;
+}
+.footer-icon {
+  width: 20px;
+  height: 20px;
+}
+.footer-icon:not(:last-child) {
+  margin-right: 10px;
 }
